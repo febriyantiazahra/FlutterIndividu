@@ -9,6 +9,8 @@ class LoginPage extends StatefulWidget {
 
   @override
   _LoginPageState createState() => _LoginPageState();
+
+  void login(String email, String password) {}
 }
 
 class _LoginPageState extends State<LoginPage> {
